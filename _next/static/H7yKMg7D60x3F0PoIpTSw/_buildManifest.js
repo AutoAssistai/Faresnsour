@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/AutoAssist//_next/:path+",
+        "destination": "/AutoAssist/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
